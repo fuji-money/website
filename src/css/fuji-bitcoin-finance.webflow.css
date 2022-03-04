@@ -1683,13 +1683,9 @@ blockquote {
   .nav-link {
     padding-top: 16px;
     padding-bottom: 16px;
-    font-family: ProximaNovaBold;
+    font-family: 'Proxima Nova Regular', sans-serif;
     font-size: 16px;
-    font-weight: 700;
-  }
-
-  .nav-link.navbar-button-space {
-    margin-bottom: 16px;
+    font-weight: 400;
   }
 
   .brand {
@@ -1810,10 +1806,6 @@ blockquote {
     padding: 8px;
   }
 
-  .nav-menu {
-    padding-bottom: 16px;
-  }
-
   .brand-logo {
     height: 40px;
   }
@@ -1882,6 +1874,7 @@ blockquote {
   }
 
   .nav-link.navbar-button-space {
+    margin-bottom: 16px;
     border-bottom-style: solid;
   }
 
@@ -1917,6 +1910,10 @@ blockquote {
 
   .faq-answer {
     font-size: 16px;
+  }
+
+  .nav-menu {
+    padding-bottom: 16px;
   }
 
   .brand-logo {
