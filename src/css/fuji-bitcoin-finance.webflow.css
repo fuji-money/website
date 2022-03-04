@@ -78,7 +78,7 @@
 }
 
 body {
-  font-family: ProximaNovaRegular, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   color: #282a27;
   font-size: 18px;
   line-height: 1.5;
@@ -88,7 +88,7 @@ body {
 h1 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 96px;
   line-height: 1.2;
   font-weight: 700;
@@ -98,7 +98,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 60px;
   line-height: 1.2;
   font-weight: 700;
@@ -108,7 +108,7 @@ h2 {
 h3 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 48px;
   line-height: 1.2;
   font-weight: 700;
@@ -117,7 +117,7 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 34px;
   line-height: 1.2;
   font-weight: 700;
@@ -126,7 +126,7 @@ h4 {
 h5 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
@@ -135,7 +135,7 @@ h5 {
 h6 {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
@@ -634,7 +634,7 @@ blockquote {
   border-width: 1px;
   border-color: #efacb0;
   border-radius: 4px;
-  font-family: ProximaNovaRegular, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -674,7 +674,7 @@ blockquote {
   border-width: 1px;
   border-color: #efacb0;
   border-radius: 4px;
-  font-family: ProximaNovaRegular, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -715,7 +715,7 @@ blockquote {
   border-color: #efacb0;
   border-radius: 4px;
   background-color: #fff;
-  font-family: ProximaNovaRegular, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
@@ -944,10 +944,10 @@ blockquote {
   padding-bottom: 19px;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
-  font-family: ProximaNovaBlack, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   color: #6b1d9c;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .nav-link:hover {
@@ -982,10 +982,10 @@ blockquote {
 }
 
 .subheading {
-  font-family: ProximaNovaBlack, sans-serif;
+  font-family: 'Proxima Nova Regular', sans-serif;
   color: #2c024d;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .hero-image {
@@ -1142,13 +1142,13 @@ blockquote {
 }
 
 .text-bold-italic {
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: ProximaNovaBold;
   font-style: italic;
   font-weight: 700;
 }
 
 .text-bold {
-  font-family: ProximaNovaBold, sans-serif;
+  font-family: ProximaNovaBold;
   font-weight: 700;
 }
 
@@ -1683,7 +1683,7 @@ blockquote {
   .nav-link {
     padding-top: 16px;
     padding-bottom: 16px;
-    font-family: ProximaNovaBold, sans-serif;
+    font-family: ProximaNovaBold;
     font-size: 16px;
     font-weight: 700;
   }
@@ -1701,9 +1701,7 @@ blockquote {
   }
 
   .subheading {
-    font-family: ProximaNovaBold, sans-serif;
     font-size: 20px;
-    font-weight: 700;
   }
 
   .hero-image {
@@ -2343,30 +2341,23 @@ blockquote {
 }
 
 @font-face {
-  font-family: 'ProximaNovaBlack';
-  src: url('../fonts/font.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ProximaNovaBold';
-  src: url('../fonts/font.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ProximaNovaRegular';
-  src: url('../fonts/font.woff2') format('woff2');
+  font-family: 'Proxima Nova Regular';
+  src: url('../fonts/ProximaNovaRegular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'ProximaNovaThin';
-  src: url('../fonts/font.woff2') format('woff2');
-  font-weight: 100;
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/ProximaNovaBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url('../fonts/ProximaNovaBlack.woff2') format('woff2');
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
