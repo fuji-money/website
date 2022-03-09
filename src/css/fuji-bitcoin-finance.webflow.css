@@ -1018,7 +1018,9 @@ blockquote {
 
 .blinded-oracle-tree-image {
   position: absolute;
-  right: -100px;
+  left: 640px;
+  bottom: -170px;
+  max-height: 640px;
 }
 
 .blinded-oracle-cloud-1 {
@@ -1035,9 +1037,9 @@ blockquote {
 
 .non-custodial-image {
   position: absolute;
-  left: -190px;
-  top: -96px;
-  max-height: 800px;
+  left: -350px;
+  bottom: -168px;
+  max-height: 650px;
 }
 
 .section-heading-solid {
@@ -1165,15 +1167,14 @@ blockquote {
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: -5px;
+  bottom: -140px;
   z-index: 0;
   width: 100vw;
   height: 1160px;
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/illustration-5-1.svg');
-  background-position: 50% 50%;
+  background-image: url('../images/illustration-5-2.svg');
+  background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1391,9 +1392,9 @@ blockquote {
   }
 
   .non-custodial-image {
-    left: -156px;
+    left: -370px;
     top: -75px;
-    max-height: 580px;
+    max-height: 500px;
   }
 
   .section-heading-solid {
@@ -1430,6 +1431,7 @@ blockquote {
   }
 
   .cta-background {
+    bottom: -120px;
     height: 100vw;
     background-position: 50% 100%;
   }
@@ -1519,12 +1521,12 @@ blockquote {
   }
 
   .section.non-custodial {
-    height: 724px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 
   .section.how-it-works {
+    margin-top: -5px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -1721,8 +1723,12 @@ blockquote {
   }
 
   .blinded-oracle-tree-image {
-    left: 100px;
+    position: absolute;
+    left: auto;
+    top: 200px;
     right: auto;
+    bottom: auto;
+    height: auto;
   }
 
   .blinded-oracle-cloud-1 {
@@ -1734,12 +1740,13 @@ blockquote {
 
   .blinded-oracle-cloud-2 {
     left: auto;
-    top: 220px;
+    top: 170px;
     bottom: auto;
-    height: 48px;
+    height: 40px;
   }
 
   .non-custodial-image {
+    position: static;
     left: -160px;
     top: 200px;
   }
@@ -1781,7 +1788,7 @@ blockquote {
     position: static;
     width: 100vw;
     height: 100vw;
-    margin-bottom: -5px;
+    margin-bottom: -80px;
   }
 
   .social-icons-wrapper {
@@ -1845,8 +1852,8 @@ blockquote {
     font-size: 18px;
   }
 
-  .section.non-custodial {
-    height: 570px;
+  .section.blinded-oracle {
+    height: 630px;
   }
 
   .column {
@@ -1879,7 +1886,7 @@ blockquote {
   }
 
   .blinded-oracle-tree-image {
-    left: 64px;
+    top: 300px;
   }
 
   .blinded-oracle-cloud-1 {
@@ -1888,6 +1895,7 @@ blockquote {
 
   .blinded-oracle-cloud-2 {
     top: 260px;
+    height: 32px;
   }
 
   .non-custodial-image {
@@ -1910,6 +1918,10 @@ blockquote {
 
   .faq-answer {
     font-size: 16px;
+  }
+
+  .cta-background {
+    margin-bottom: -50px;
   }
 
   .nav-menu {
