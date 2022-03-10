@@ -1131,6 +1131,7 @@ blockquote {
   max-width: 95%;
   margin-bottom: 0px;
   color: #fff;
+  font-size: 24px;
   white-space: normal;
 }
 
@@ -1144,13 +1145,13 @@ blockquote {
 }
 
 .text-bold-italic {
-  font-family: ProximaNovaBold;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-style: italic;
   font-weight: 700;
 }
 
 .text-bold {
-  font-family: ProximaNovaBold;
+  font-family: 'Proxima Nova Bold', sans-serif;
   font-weight: 700;
 }
 
@@ -1167,14 +1168,14 @@ blockquote {
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: -140px;
+  bottom: -200px;
   z-index: 0;
   width: 100vw;
-  height: 1160px;
+  height: 1300px;
   margin-right: auto;
   margin-left: auto;
   background-image: url('../images/illustration-5-2.svg');
-  background-position: 50% 100%;
+  background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1291,6 +1292,10 @@ blockquote {
 
   .button-primary {
     padding: 20px 36px;
+  }
+
+  .button-primary.cta {
+    margin-top: 60px;
   }
 
   .button-primary.small-screens {
@@ -1432,6 +1437,7 @@ blockquote {
 
   .cta-background {
     bottom: -120px;
+    width: 100vw;
     height: 100vw;
     background-position: 50% 100%;
   }
