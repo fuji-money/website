@@ -16,6 +16,6 @@ jobs:
           target_branch: gh-pages
           build_dir: ./src
           fqdn: fuji.money
-          jekyll: false
+          jekyll: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
