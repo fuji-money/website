@@ -1234,8 +1234,8 @@ blockquote {
   width: 102px;
 }
 
-.brand-logo {
-  height: 75px;
+.hero-logo {
+  height: 128px;
 }
 
 .footer-logo {
@@ -1499,8 +1499,8 @@ blockquote {
     width: 80px;
   }
 
-  .brand-logo {
-    height: 56px;
+  .hero-logo {
+    height: 96px;
   }
 
   .footer-logo {
@@ -1839,8 +1839,8 @@ blockquote {
     padding: 8px;
   }
 
-  .brand-logo {
-    height: 40px;
+  .hero-logo {
+    height: 80px;
   }
 
   .footer-logo {
@@ -1960,8 +1960,8 @@ blockquote {
     padding-bottom: 16px;
   }
 
-  .brand-logo {
-    height: 38px;
+  .hero-logo {
+    height: 64px;
   }
 
   .footer-logo {
